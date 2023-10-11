@@ -1,4 +1,4 @@
-+function isEnoughCapacity(products, containerSize) {
+function isEnoughCapacity(products, containerSize) {
 
     let totalProduct = 0;
     
