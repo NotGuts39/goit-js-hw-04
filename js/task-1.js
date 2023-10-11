@@ -1,23 +1,18 @@
 function isEnoughCapacity(products, containerSize) {
 
-    let totalProduct = 0;
-    
-        for (const product in products) {
-        
+   let totalProduct = 0;
+   
+        for (const product in products) {        
             totalProduct += products[product];
-
-            console.log(totalProduct)
-
-    }
-    
+            console.log(totalProduct)    }
+   
         if (totalProduct <= containerSize) {
-
-            return true
+           return true
             
-        }
+       }
 
-        
-                return false   
+       
+               return false   
             
 
 
