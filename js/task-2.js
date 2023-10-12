@@ -1,20 +1,28 @@
 function calcAverageCalories(days) {
+
+
+  if (days.length === 0) {
+
+    return 0
+  }
+  
+    
+
+
     
     let totalCalories = 0;
 
     for (let i = 0; i < days.length; i++) {
-        totalCalories += days[i].calories;
-
-        console.log(totalCalories)
+      totalCalories += days[i].calories;
+            
     }
 
-    const totalDays = days.length
-
-    console.log(totalDays)
+  const totalDays = days.length;
+       
+  const averageCalories = totalCalories / totalDays;
     
-    const averageCalories = totalCalories / totalDays
     
-    console.log(averageCalories)
+  return averageCalories
    
     
     
